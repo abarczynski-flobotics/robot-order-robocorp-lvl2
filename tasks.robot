@@ -177,7 +177,7 @@ Get The Program Author Name From Our Vault
     Log    ${secret}[username] wrote this program for you    console=yes
 
 Get The User Name
-    Add heading    I am your RoboCorp Order Genie
+    Add heading    Welcome in Robot Order Bot!
     Add text input    myname    label=What is your name?    placeholder=Give me some input here
     ${result}=    Run dialog
     RETURN    ${result.myname}
