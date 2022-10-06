@@ -163,7 +163,7 @@ Store the receipt as a PDF file
 Embed the robot screenshot to the receipt PDF file
     [Arguments]    ${IMG_FILE}    ${PDF_FILE}
 
-    Log To Console    Printing Embedding image ${IMG_FILE} in pdf file ${PDF_FILE}
+    Log To Console    Printing image ${IMG_FILE} in pdf file ${PDF_FILE}
 
     # Open PDF    ${PDF_FILE}
 
